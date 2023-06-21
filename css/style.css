@@ -1,0 +1,464 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style-type: none;
+}
+a,a:hover{
+    color: #000;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.btn{
+    border: 0;
+}
+body{
+    position: relative;
+    font-family: "Roboto", 'poppins' sans-serif;
+}
+h1,h2,h3,h4,h5,h6,hr,p,a,span,input,form,li,ul,ol,img,.navbar-brand,div,textarea,.btn,button{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #2c3754;
+    font-size: 38px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #ffffff;
+}
+h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'poppins';
+    color: #222222;  
+}
+h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #222222;
+}
+h4 span{
+    color: #bf00ff;
+    font-weight: 500;
+    font-family: 'poppins';
+}
+h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #222222;
+}
+.pricing_item ul li,
+.test_slide_item h6,
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #444444; 
+}
+a{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #222222;
+    transition: 0.4s;
+    display: inline-block;
+}
+.btn_com{
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    color: #fff;
+    background: #bf00ff;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(171, 109, 176, 0.48);
+}
+
+.mt_30{
+    margin-top: 30px;
+}
+.px_0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mx_0{
+    margin-left: 0;
+    margin-right: 0;
+}
+.pl_0{
+    padding-left: 0;
+}
+.pr_0{
+    padding-right: 0;
+}
+.ml_0{
+    margin-left: 0;
+}
+.mr_0{
+    margin-right: 0;
+}
+.py_90{
+    padding: 90px 0px;
+}
+.py_50{
+    padding: 50px 0px;
+}
+.py_5090{
+    padding: 50px 0px 90px;
+}
+.py_3050{
+    padding: 30px 0px 50px;
+}
+.pt_90{
+    padding-top: 90px;
+}
+.pb_90{
+    padding-bottom: 90px;
+}
+.pb_50{
+    padding-bottom: 50px;
+}
+.pt_50{
+    padding-top: 50px;
+}
+/* header start */
+.menu_part{
+    padding: 5px 0px;
+    background-color: #ad95f7;
+}
+.menu{
+    
+}
+.navbar-brand img{
+    height: 70px;
+}
+.menu .nav-item .nav-link{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #dcd0ff;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.menu .nav-item.active .nav-link,
+.menu .nav-item:hover .nav-link{
+    color: #bf00ff;
+}
+.menu .nav-item .nav-link.btn_com {
+	padding: 10px 20px;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 335px;
+    text-transform: capitalize;
+}
+.menu .nav-item .nav-link.btn_com:hover{
+    color: #0b0101;
+}
+/* header end */
+
+/* banner_part start */
+.banner_part{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0px 195px;
+    margin-top: -60px;
+}
+.banner_item{
+    
+    
+}
+.banner_item .carousel-item h1{
+    padding-bottom: 15px;
+}
+.banner_item .carousel-item p{
+    padding-bottom: 50px;
+    padding-right: 240px;
+}
+.carousel-item .btn_com:hover{
+    color: #fff;
+
+}
+.banner_item .carousel-item 
+/* banner_part end */
+
+/* common_heading start */
+.common_heading{
+  
+}
+.common_heading h4{
+    padding-bottom: 5px;
+}
+.common_heading h3{
+    padding-bottom: 20px;
+}
+/* common_heading end */
+
+/* about_part start */
+.about_part{
+    
+}
+.about_img{
+    position: relative;
+}
+.about_content{
+    
+}
+.about_content h4{
+    text-transform: lowercase;
+    padding-bottom: 5px;
+}
+.about_content h3{
+    padding-bottom: 40px;
+}
+.about_content p{
+    padding-bottom: 25px;
+}
+.about_content a.btn_com{
+    margin-top: 20px;
+}
+.about_content .btn_com:hover{
+    color: #fff;
+}
+/* about_part end */
+
+/* services_part start */
+.services_part{
+
+}
+.service_text i{
+    color: #bf00ff;
+    font-size: 20px;
+    padding: 30px 0px 10px 20px;
+}
+.service_text h4{
+    color: #64686d;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    display: inline;
+    padding: 0px 6px;
+}
+.service_text p{
+    color: #64686d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 10px 0px 0px;
+}
+.service_text a{
+    color: #222222;
+    font-size: 16px;
+    font-family: 'poppins';
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+.service_text a::after {
+	content: '';
+	background: #ab6db0;
+	width: 65px;
+	height: 3px;
+	display: block;
+}
+.service_text{
+    margin-left: 20px;
+    padding: 15px 30px;
+}
+.service_text:hover{
+    box-shadow: 0px 0px 10px #ab6db0;
+    border-radius: 15px
+}
+/* services_part end */
+
+/* client_part start */
+.client_item {
+    background: #f2e9f3;
+	box-shadow: 0 0 5px #ab6db0;
+	border-radius: 15px;
+	padding: 20px 0px;
+    margin-top: 30px;
+}
+.client_img img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 5px solid #ad95f7;
+}
+.client_text{
+    padding: 18px 0px 25px;
+    text-align: center;
+}
+.client_text h3 {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+	margin: 5px 0px 10px;
+}
+.client_text p {
+	font-size: 14px;
+	padding: 0px 10px;
+}
+.client_icon{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.client_icon i{
+    font-size: 24px;
+    color: #b986bd;
+    padding: 0px 10px;
+    transition: transform 0.5s;
+}
+.client_icon i:hover{
+    color: #bf00ff;
+    transform: translateY(-5px);
+}
+/* client_part end */
+
+/* message_part start */
+.message_part{
+    background: #ad95f7;
+}
+.message_item a.btn_com{
+    background: #fff;
+    color: #0b0101;
+    float: right;
+    margin-top: 23px;
+    font-weight: 600;
+}
+.message_item .btn_com:hover{
+    background-color: #941b9e;
+    color: #f2e9f3;
+}
+/* message_part end */
+
+/* testomonial_part start */
+.testomonial_part{
+    
+}
+.test_slide_item{
+    
+}
+.test_slide_item_img{
+    position: relative;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.test_slide_item_img img{
+    height: 105px;
+    border-radius: 50%;
+    border: 3px solid #ae98f0d7;
+}
+.test_slide_item_img_qute{
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+}
+.test_slide_item_img_qute i{
+    color: #8c3993;
+}
+.test_slide_item h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'poppins';
+}
+.test_slide_item h6{
+    padding-bottom: 25px;
+      font-size: 18px;
+}
+.test_slide_item p{
+    padding: 0px 100px;
+    font-size: 18px;
+}
+.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+	color: #fff;
+}
+
+/* testomonial_part end */
+
+/* footer start */
+footer{
+    padding-top: 20px;
+    background-color: #ae98f0d7;
+}
+.ft_item ul li a {
+	padding: 25px 18px;
+	color: #000;
+	font-weight: 400;
+    font-family: 'poppins';
+}
+.ft_item  .sicon_part{
+    margin: 5px 0px;
+}
+.ft_item  .sicon_part li a{
+    padding: 0;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #941b9e;
+    color: #f2e9f3;
+    margin: 0px 15px;
+    transition: transform 0.5s;
+}
+.ft_item  .sicon_part li a i{
+    line-height: 50px;
+    font-size: 20px;
+}
+.ft_item  .sicon_part li:hover a{
+    transform: translateY(-5px);
+}
+.ft_item  .sicon_part li:hover a i{
+    color: #fff;
+}
+.ft_item .d-flex li a:hover{
+    color: #941b9e;
+}
+.border_sec{
+    border-top: 1px solid #303133;
+}
+.copy_right{
+    padding: 20px 0px;
+}
+.copy_right p{
+    font-size: 16px;
+    color: #0b0101;
+    font-weight: 700;
+    font-family: 'poppins';
+}
+.copy_right p a {
+	color:  #941b9e;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'poppins';
+}
+.copy_right p i{
+    color: #941b9e;
+}
+/* footer end */
